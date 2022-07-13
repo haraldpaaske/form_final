@@ -106,7 +106,7 @@ input[type="text"]:focus, input[type="email"]:focus{
 }
 
 
-input[name="q2alt1"] {
+input[value="cs"] {
     appearance: none;
     height: 100px;
     width: 200px;
@@ -117,7 +117,7 @@ input[name="q2alt1"] {
     margin: 10px;
 }
 
-input[name="q2alt2"] {
+input[value="rocketLeague"] {
     appearance: none;
     height: 100px;
     width: 200px;
@@ -128,7 +128,7 @@ input[name="q2alt2"] {
     margin: 10px;
 }
 
-input[name="q2alt3"] {
+input[value="lol"] {
     appearance: none;
     height: 100px;
     width: 200px;
@@ -139,7 +139,7 @@ input[name="q2alt3"] {
     margin: 10px;
 }
 
-input[name="q2alt4"] {
+input[value="pubg"] {
     appearance: none;
     height: 100px;
     width: 200px;
@@ -150,7 +150,7 @@ input[name="q2alt4"] {
     margin: 10px;
 }
 
-input[name="q2alt5"] {
+input[value="cod"] {
     appearance: none;
     height: 100px;
     width: 200px;
@@ -161,7 +161,7 @@ input[name="q2alt5"] {
     margin: 10px;
 }
 
-input[name="q2alt6"] {
+input[value="other"] {
     appearance: none;
     height: 100px;
     width: 200px;
