@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HORDEN.GG</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+    
+    
+    <div id="main">
+        <h1>HORDEN.GG</h1>
+
+
+    <form name="contact" action="tanx.html" netlify>
+
+        <div>
+        <div id="mail_name" style="margin: auto;">
+            <div style="float: left; margin: 10px;">
+                <label for="name" style="margin: 5px;" name="Name"></label><br>
+                <input placeholder="Your name" type="text" value="" trequired>
+            </div>
+            <div id="maildiv" style="float: left; margin: 10px;">
+                <label for="epost" style="margin: 5px;" name="Email"></label><br>
+                <input type="email" placeholder="Your E-mail" value="" required>
+            </div>
+        </div>
+        </div>
+
+
+
+        <div class="main" id="role">
+            <label id="label2" for="role">Your role</label><br>
+            <div class="role_sm" style= >
+                <input id="1" type="checkbox" value="proGamer" name="q1alt1">
+                <label for="1">Professional gamer</label><br>
+                <input id="2"  type="checkbox" value="AmatureGamer" name="q1alt2">
+                <label for="2">Amature gamer</label><br>
+                <input id="4"  type="checkbox" value="eOrganisasjon" name="q1alt4">
+                <label for="4">E-sport organissation</label><br>
+                <input id="5"  type="checkbox" value="trener" name="q1alt5">
+                <label for="5">Coach</label>
+            </div>
+            <div class="role_sm">
+                <input id="6" type="checkbox" value="manager" name="q1alt6">
+                <label for="6">Manager</label><br>
+                <input id="7" type="checkbox" value="speider" name="q1alt7">
+                <label for="7">Talent scout</label><br>
+                <input id="8" type="checkbox" value="agent" name="q1alt8">
+                <label for="8">Agent</label><br>
+                <input onclick="shit()" id="9" type="checkbox" value="other" name="q1alt9">
+                <label for="9">Other</label><br>
+            </div>
+            <label for="otherRole" style="margin: auto;"></label><br>
+            <input id="otherRole" style="width: 350px; visibility: hidden; display: inline;" placeholder="Please enter your role" type="text" >
+
+
+        </div>
+        
+
+        <div class="main" id="game">
+            <div id="game_label"><label for="Games">Select your games of choice</label><br></div>
+            <div style="float: left;">
+                <input type="checkbox" value="cs" name="q2alt1"><br>
+                <input type="checkbox" value="rocketLeague" name="RocketLeague"><br>
+            </div>
+
+            <div style="float: left;">
+                <input type="checkbox" value="lol" name="League of Legends"><br>
+                <input type="checkbox" value="pubg" name="PUBG"><br>
+            </div>
+
+            
+            <div style="float: left;">
+                <input type="checkbox" value="cod" name="Call of Duty"><br id="br">
+                <input onchange="shit2()" type="checkbox" value="other" name="Other"><br>  
+            </div>
+
+            <label for="otherGame"></label>
+            <input id="otherGame" style="width: 350px;" placeholder="Please enter your game" type="text" hidden>
+
+        </div>
+        <input type="submit" value="Submit">
+
+    </form>
+    </div>
+</body>
+</html>

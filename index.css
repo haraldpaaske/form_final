@@ -1,0 +1,273 @@
+
+
+body{
+    background-color: #1c5f82;
+    min-width: 600px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    color: #ff8d25;
+    margin: 50px;
+}
+
+
+#main{
+    background-color: #6e85e6;
+    padding: 20px;
+    width: 800px;
+    height: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 20px 0px;
+    border-radius: 3px;
+}
+
+
+
+#game{
+    position: relative;
+    top: 160px;
+    text-align: center;
+    height: 300px;
+    width: 660px;
+    margin: auto;
+}
+
+input{
+    box-shadow: 2px 2px 2px 2px;
+}
+
+input:hover{
+    box-shadow: 4px 4px 4px 4px;
+}
+
+#otherRole{
+    position: relative;
+    bottom: 0px;
+}
+
+
+
+#role{
+    position: relative;
+    top: 150px;
+    margin: auto;
+    width: 380px;
+    height: 200px;
+}
+
+#label2{
+    position: relative;
+    top: -110px !important;
+
+}
+
+#role input[type="text"]{
+    position: relative;
+    top: -80px;
+}
+
+.role_sm{
+    position: relative;
+    top: -100px;
+    float: left; 
+    text-align: left;
+    margin-left: 20px;
+
+    display: inline;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 8px ;
+    background-color: #ff8d25;
+    border-color: blueviolet;
+    border: 5px;
+    position: relative;
+    top: 200px;
+    font-size: 24px;
+}
+
+#main input[type="text"], #main input[type="email"]{
+    font-size: 20px;
+    border-radius: 8px;
+    height: 30px;
+    width: 350px;
+    padding: 5px;
+    border: none;
+}
+
+input[type="text"]:focus, input[type="email"]:focus{
+    outline: none;
+}
+
+
+input[name="q2alt1"] {
+    appearance: none;
+    height: 100px;
+    width: 200px;
+    background-image:url('cs.png');
+    background-size: cover; /* or contain */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px;
+    margin: 10px;
+}
+
+input[name="q2alt2"] {
+    appearance: none;
+    height: 100px;
+    width: 200px;
+    background-image:url('rl.png');
+    background-size: cover; /* or contain */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px;
+    margin: 10px;
+}
+
+input[name="q2alt3"] {
+    appearance: none;
+    height: 100px;
+    width: 200px;
+    background-image:url('lol.png');
+    background-size: cover; /* or contain */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px;
+    margin: 10px;
+}
+
+input[name="q2alt4"] {
+    appearance: none;
+    height: 100px;
+    width: 200px;
+    background-image:url('pubg.png');
+    background-size: cover; /* or contain */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px;
+    margin: 10px;
+}
+
+input[name="q2alt5"] {
+    appearance: none;
+    height: 100px;
+    width: 200px;
+    background-image:url('cod.png');
+    background-size: cover; /* or contain */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px;
+    margin: 10px;
+}
+
+input[name="q2alt6"] {
+    appearance: none;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    background-image:url('og2.png');
+    background-size: cover; /* or contain */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px;
+    margin: 10px;
+}
+
+
+#game input[type="checkbox"]:hover {
+    box-shadow: 8px 8px 8px 5px;
+}
+
+#game input[type="checkbox"]:checked{
+    box-shadow: 0px 0px 3px 8px #ff8d25;
+}
+
+#game_label{
+    position: relative;
+    margin: auto;
+    width: 200px !important;
+    height: 40px;
+    top: -30px;
+    text-align: center;
+}
+
+
+label{
+    color: white;
+    font-size: 18px;
+}
+
+#role input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+#role input:checked{
+    background-image: url('cm.png');
+    background-size: cover; /* or contain */
+}
+
+#role label{
+    margin-bottom: 3px;
+    position: relative;
+    top: -5px;
+}
+
+@media (max-width: 835px) {
+
+
+    #br{
+        display: none;
+    }
+
+
+
+    #mail_name{
+        position: relative;
+        width: 360px;
+        top: 10px;
+    }
+
+    #maildiv{
+        position: relative;
+        float: left;
+    }
+
+
+    #main{
+        width: 100%;
+        height: 1200px;
+    }
+
+
+    #game{
+        position: relative;
+        margin: auto;
+        width: 450px;
+        top: 200px;
+    }
+
+    input[type="submit"]{
+        position: relative;
+        top: 270px;
+        left: -6px;
+        margin: auto;
+
+    }
+
+    #game_label{
+        left: 0%;
+        color: red;
+        top: -50px;
+    }
+
+
+
+  }
+
