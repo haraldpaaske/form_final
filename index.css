@@ -1,7 +1,7 @@
 
 
 body{
-    background-color: #1c5f82;
+    background-color: #1B4965;
     min-width: 600px;
     margin: 0px;
     text-align: center;
@@ -9,18 +9,19 @@ body{
 }
 
 h1{
-    color: #ff8d25;
+    color: #F24333;
     margin: 50px;
+    position: relative;
+    left: -10px;
 }
 
 
 #main{
-    background-color: #6e85e6;
+    background-color: #1B4965;
     padding: 20px;
     width: 800px;
     height: 1000px;
     margin: auto;
-    box-shadow: 0px 0px 20px 0px;
     border-radius: 3px;
 }
 
@@ -84,7 +85,7 @@ input[type="submit"]{
     width: 100px;
     margin: 20px;
     border-radius: 8px ;
-    background-color: #ff8d25;
+    background-color: #F24333;
     border-color: blueviolet;
     border: 5px;
     position: relative;
@@ -161,7 +162,7 @@ input[value="cod"] {
     margin: 10px;
 }
 
-input[value="other"] {
+input[name="other"] {
     appearance: none;
     height: 100px;
     width: 200px;
@@ -179,7 +180,7 @@ input[value="other"] {
 }
 
 #game input[type="checkbox"]:checked{
-    box-shadow: 0px 0px 3px 8px #ff8d25;
+    box-shadow: 0px 0px 3px 8px #F24333;
 }
 
 #game_label{
