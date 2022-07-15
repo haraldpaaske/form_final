@@ -23,8 +23,9 @@ function shit2(){
    }
 
    x.style.display = "inline";
-   console.log(x.style.visibility);
 
 
 }
+
+
 
